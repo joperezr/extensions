@@ -13,4 +13,9 @@
     <InjectCallerAttributesOnLegacy Condition="'$(InjectCallerAttributesOnLegacy)' == ''">true</InjectCallerAttributesOnLegacy>
     <InjectSharedThrow Condition="'$(InjectSharedThrow)' == ''">true</InjectSharedThrow>
   </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.DotNet.GenAPI.Task" PrivateAssets="All" />
+  </ItemGroup>
+  
 </Project>

@@ -21,6 +21,7 @@
     <DotNetFinalVersionKind />
     <!-- Enabling this rule will cause build failures on undocumented public APIs. -->
     <SkipArcadeNoWarnCS1591>true</SkipArcadeNoWarnCS1591>
+    <MicrosoftDotNetGenAPITaskVersion>9.0.303-servicing.25359.38</MicrosoftDotNetGenAPITaskVersion>
   </PropertyGroup>
   <!--
 
